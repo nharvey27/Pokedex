@@ -1,0 +1,63 @@
+//PokemonListComponent
+.index-search {
+  margin-bottom: 8rem;
+}
+
+.col-md-4 {
+  margin-bottom: 24px;
+}
+
+.pokemon-container {
+  -webkit-transition: all 0.3s linear 0s;
+  width: 260px;
+  height: 300px;
+  margin: 10px 0px;
+  will-change: transform;
+}
+
+.pokemon-container:hover {
+  -webkit-transform: matrix(1.02, 0, 0, 1, 0, -8);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.19), 0 8px 8px rgba(0, 0, 0, 0.23);
+}
+
+.pokemon-info {
+  margin-top: 32px;
+}
+
+.pokemon-title {
+  font-size: 16px;
+  margin: 12px 0px 0px 33px;
+}
+
+.favorite__heading {
+  text-align: center;
+}
+
+.favorite-button {
+  float: right;
+  padding-right: 2em;
+}
+
+.panel-header>h6 {
+  margin: 0px 0px 0px 33px;
+}
+
+.fade-in-enter,
+.fade-in-appear {
+  opacity: 0.01;
+}
+
+.fade-in-enter.fade-in-enter-active,
+.fade-in-appear.fade-in-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-in-leave {
+  opacity: 1;
+}
+
+.fade-in-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

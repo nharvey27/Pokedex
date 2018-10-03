@@ -1,0 +1,141 @@
+//Pokemon show
+.pokemon-show-container{
+  border: 1.5px solid #bbbbbb;
+  padding: 48px;
+  border-radius: 2px;
+  background: white;
+  overflow: hidden;
+}
+
+.pokemon-show-name > h1{
+  font-size: 28px;
+  display: inline-block;
+  text-transform: capitalize;
+  margin: 8px 0px
+}
+
+.pokemon-show-weight > p{
+  display: inline-block;
+  font-size: 18px;
+  margin: 18px 12px 20px
+}
+
+.pokemon-show-types{
+  display: inline;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.pokemon-show-chart{
+  padding: 0px;
+}
+
+.pokemon-chart{
+  list-style-type: none;
+}
+
+.pokemon-chart-list{
+  margin: 33px 0px;
+  padding: 0px
+}
+
+.chart-item{
+  margin: 9px 0px;
+}
+
+.stat-name-container{
+  display: inline-block;
+  width: 80px;
+}
+
+.stat-name{
+  text-transform: capitalize;
+  color: black;
+}
+
+.stat-bar-color{
+  height: 24px;
+  position: absolute;
+}
+
+.stat-number{
+  position: absolute;
+  color: white
+}
+
+.profile-container{
+  margin-top: 12px
+}
+
+.profile-header{
+  font-size: 24px;
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.ability-col{
+  height: 24px;
+  margin: 0px 0px 10px;
+}
+
+.ability-title{
+  width: 40px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.pokemon-ability{
+  width: 65px;
+  font-size: 13px;
+}
+
+.ability-name{
+  display: inline;
+  list-style-type: none;
+}
+
+.ability-list{
+  padding: 0px;
+  width: 160px;
+  text-transform: capitalize;
+}
+
+div > p{
+  display: inline-block;
+  text-align: left;
+}
+
+.ability-list{
+  display: inline-block;
+  position: absolute;
+}
+
+.move-container{
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 25px 0px;
+  padding: 10px;
+  -webkit-transition: box-shadow .5s;
+}
+
+.move-container:hover{
+  box-shadow: 0 10px 24px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.22);
+}
+
+.move-item{
+  width: 100px;
+  display: inline-block;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.move-name{
+  text-transform: capitalize;
+}
+
+.move-move-type{
+  color: white;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
