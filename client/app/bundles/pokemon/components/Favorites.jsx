@@ -1,5 +1,4 @@
 import React from 'react';
-import PokemonsList from './PokemonsList';
 import Pokemon from './Pokemon';
 
 class Favorites extends React.Component {
